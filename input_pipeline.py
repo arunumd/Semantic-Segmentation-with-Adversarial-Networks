@@ -1,6 +1,6 @@
 
 import tensorflow as tf
-from utils import random_color_distortion, flip_randomly_left_right_image_with_annotation, classes
+from utils import random_color_distortion, flip_randomly_left_right_image_with_annotation
 
 # FCN32 INPUT PIPELINE *************************************************************************************************
 
