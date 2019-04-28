@@ -1,9 +1,9 @@
 
 import sys
 from layers import WEIGHT_DECAY_KEY
-sys.path.append('/models/discriminators')
+sys.path.insert(0,"/models/discriminators")
 import largeFOV, smallFOV, stanford_background_dataset_discriminator
-sys.path.append('/models/generators')
+sys.path.insert(0,"/models/generators")
 import fcn32, unet, deeplab_v3
 import tensorflow as tf
 import numpy as np
