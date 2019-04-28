@@ -3,7 +3,7 @@ import sys
 import layers
 import tensorflow as tf
 import numpy as np
-weights_path = "/gan_segmentation/vgg16_weights.npz"
+weights_path = "./gan_segmentation/vgg16_weights.npz"
 
 def fcn32(x, pkeep, classes, pretrained = 1):
 
